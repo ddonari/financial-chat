@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.API", "FinancialChat.API\FinancialChat.API.csproj", "{F40EF39F-E7CF-4BD1-BFCD-5EE694CD0677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{A4063C17-199A-4DC7-A3E5-D3FB685C083C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.API.Test", "FinancialChat.API.Test\FinancialChat.API.Test.csproj", "{9023BA08-60D6-4512-B684-0D2B7E6321E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Domain", "FinancialChat.Domain\FinancialChat.Domain.csproj", "{429DDF54-36BC-42AF-85C4-46BC89A31617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Logic", "FinancialChat.Logic\FinancialChat.Logic.csproj", "{168E8677-82F4-433A-AB28-E67BB6356755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Logic.Test", "FinancialChat.Logic.Test\FinancialChat.Logic.Test.csproj", "{E28685CC-747A-4586-A68A-ABEEBF3D3187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChat.Providers", "FinancialChat.Providers\FinancialChat.Providers.csproj", "{28B5BD60-981E-4D58-A9F5-E78BA6B03EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40EF39F-E7CF-4BD1-BFCD-5EE694CD0677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40EF39F-E7CF-4BD1-BFCD-5EE694CD0677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40EF39F-E7CF-4BD1-BFCD-5EE694CD0677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40EF39F-E7CF-4BD1-BFCD-5EE694CD0677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9023BA08-60D6-4512-B684-0D2B7E6321E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9023BA08-60D6-4512-B684-0D2B7E6321E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9023BA08-60D6-4512-B684-0D2B7E6321E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9023BA08-60D6-4512-B684-0D2B7E6321E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429DDF54-36BC-42AF-85C4-46BC89A31617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429DDF54-36BC-42AF-85C4-46BC89A31617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429DDF54-36BC-42AF-85C4-46BC89A31617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429DDF54-36BC-42AF-85C4-46BC89A31617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168E8677-82F4-433A-AB28-E67BB6356755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168E8677-82F4-433A-AB28-E67BB6356755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168E8677-82F4-433A-AB28-E67BB6356755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168E8677-82F4-433A-AB28-E67BB6356755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28685CC-747A-4586-A68A-ABEEBF3D3187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28685CC-747A-4586-A68A-ABEEBF3D3187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28685CC-747A-4586-A68A-ABEEBF3D3187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28685CC-747A-4586-A68A-ABEEBF3D3187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B5BD60-981E-4D58-A9F5-E78BA6B03EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B5BD60-981E-4D58-A9F5-E78BA6B03EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B5BD60-981E-4D58-A9F5-E78BA6B03EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B5BD60-981E-4D58-A9F5-E78BA6B03EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D1FD4CB-F3DF-47CA-B5F4-73A8A331783B}
+	EndGlobalSection
+EndGlobal
