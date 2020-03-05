@@ -1,6 +1,3 @@
-# Financial Chat
-Simple browser-based chat application using .NET.
-
 # Financial Chatroom
 Chatroom API with stock quotes from an external API.
 
